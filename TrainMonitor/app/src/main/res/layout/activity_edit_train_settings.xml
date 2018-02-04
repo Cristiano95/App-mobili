@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.teocri.trainmonitor.EditTrainSettingsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewTrain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_train_default"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20sp"
+            android:text="@string/text_update_interval"
+            android:textSize="20sp"/>
+
+        <RadioGroup
+            android:id="@+id/radio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10sp"
+            android:paddingBottom="20sp">
+
+            <RadioButton
+                android:id="@+id/radioButton15s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:hint="@string/radioB_1_hint"
+                android:text="@string/radioB_1_text"
+                android:checked="true"/>
+
+            <RadioButton
+                android:id="@+id/radioButton30s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:hint="@string/radioB_2_hint"
+                android:text="@string/radioB_2_text" />
+
+            <RadioButton
+                android:id="@+id/radioButton1m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:hint="@string/radioB_3_hint"
+                android:text="@string/radioB_3_text" />
+
+            <RadioButton
+                android:id="@+id/radioButton2m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:hint="@string/radioB_4_hint"
+                android:text="@string/radioB_4_text" />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonApplyChanges"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="SetChanges"
+                android:text="@string/apply_changes" />
+
+            <!--  ADDED SPACER VIEW -->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+            <!-- /ADDED SPACER VIEW -->
+
+            <Button
+                android:id="@+id/buttonDeleteTrain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="deleteTrain"
+                android:text="@string/delete_train" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

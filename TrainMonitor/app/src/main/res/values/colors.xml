@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#222222</color>              <!--222222 - nero chiaro-->
+    <color name="colorPrimaryDark">#000000</color>          <!--000000 - nero-->
+    <color name="colorAccent">#FF4081</color>               <!--FF4081 - fucsia chiaro-->
+
+    <string name="case_0">#72014a</string>                  <!--72014a - viola scuro-->
+    <string name="case_0_layout">#ff49fb</string>           <!--ff49fb - fucsia chiaro-->
+
+    <string name="case_1">#000000</string>                  <!--000000 - nero-->
+    <string name="case_1_layout">#808080</string>           <!--808080 - grigio-->
+
+    <string name="case_2">#006600</string>                  <!--006600 - verde-->
+    <string name="case_2_layout">#00cd00</string>           <!--00cd00 - fucsia-->
+
+    <string name="case_3">#722d00</string>                  <!--722d00 - marrone scuro-->
+    <string name="case_3_layout">#00cd00</string>           <!--00cd00 - fucsia-->
+
+    <string name="case_4">#dd0000</string>                  <!--dd0000 - rosso scuro-->
+    <string name="case_4_layout">#ff8080</string>           <!--ff8080 - rosso chiaro-->
+
+    <string name="case_6">#ee0000</string>                  <!--ee0000 - rosso-->
+    <string name="case_6_layout">#ffdfdf</string>           <!--ffdfdf - rosa-->
+
+    <string name="case_8">#0000ff</string>                  <!--0000ff - blu-->
+    <string name="case_8_layout">#adadff</string>           <!--adadff - azzurro-->
+
+    <string name="case_99">#eeeeff</string>                 <!--eeeeff - grigio chiaro-->
+    <string name="case_99_layout">#aa22ff</string>          <!--aa22ff - viola-->
+
+    <string name="case_default">#111111</string>            <!--111111 - nero-->
+    <string name="case_default_layout">#ffc65c</string>     <!--ffc65c - arancione chiaro-->
+</resources>

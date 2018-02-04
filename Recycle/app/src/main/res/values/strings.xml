@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Recycle</string>
+    <string name="city">city</string>
+    <string name="garbage">garbage</string>
+    <string name="where_do_i_throw_this">where do i throw this ?</string>
+    <string name="get_schedule">get schedule</string>
+    <string name="textView_city_empty">Insert a city</string>
+    <string name="city_not_available">city not available</string>
+    <string name="textView_garbage_empty">Insert something you want to recycle</string>
+    <string name="cannot_find_bin">cannot find a proper bin</string>
+</resources>

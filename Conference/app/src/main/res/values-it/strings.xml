@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Conference</string>
+    <string name="add_event_to_calendar">Aggiungi evento al calendario</string>
+</resources>

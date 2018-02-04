@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Recycle</string>
+    <string name="city">città</string>
+    <string name="garbage">rifiuto</string>
+    <string name="where_do_i_throw_this">dove lo butto ?</string>
+    <string name="get_schedule">scheda orari</string>
+    <string name="textView_city_empty">inserisci una città</string>
+    <string name="city_not_available">città non disponibile</string>
+    <string name="textView_garbage_empty">inserisci il rifiuto da buttare</string>
+    <string name="cannot_find_bin">impossibile trovare cestino per il rifiuto</string>
+</resources>

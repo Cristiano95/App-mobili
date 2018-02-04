@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/preferences_list_title">
+
+            <Preference
+                android:key="TrainNumber1"
+                android:summary=""
+                android:title="Slot 1"
+                android:defaultValue="0"/>
+
+            <Preference
+                android:key="TrainNumber2"
+                android:summary=""
+                android:title="Slot 2"
+                android:defaultValue="0"/>
+
+            <Preference
+                android:key="TrainNumber3"
+                android:summary=""
+                android:title="Slot 3"
+                android:defaultValue="0"/>
+
+            <Preference
+                android:key="TrainNumber4"
+                android:summary=""
+                android:title="Slot 4"
+                android:defaultValue="0"/>
+
+            <Preference
+                android:key="TrainNumber5"
+                android:summary=""
+                android:title="Slot 5"
+                android:defaultValue="0"/>
+
+            <Preference
+                android:key="TrainNumber6"
+                android:summary=""
+                android:title="Slot 6"
+                android:defaultValue="0"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
